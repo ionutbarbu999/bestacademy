@@ -1,0 +1,18 @@
+<div class="nav-component">
+    <div class="logo-container">
+        <a href="index.html">
+            <picture>
+                <source media="(max-width: 865px)" srcset="../../assets/images/opt-imgs/logonav_r.png">
+                <img src="../../assets/images/logonav.png" alt="Logo BEST Academy" class="logo">
+            </picture>
+        </a>
+    </div>
+    <nav class="menu-list">
+        <a [routerLink]="['']" routerLinkActive="active-link">Acasa</a>
+        <a [routerLink]="['/about-us']" routerLinkActive="active-link">Despre Noi</a>
+        <a [routerLink]="['/languages']" routerLinkActive="active-link">Limbi Straine</a>
+        <a [routerLink]="['/workshops']" routerLinkActive="active-link">Ateliere</a>
+        <a [routerLink]="['/summer-courses']" routerLinkActive="active-link">Cursuri de Vara</a>
+        <a [routerLink]="['/contact']" routerLinkActive="active-link">Contact</a>
+    </nav>
+</div>

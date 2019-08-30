@@ -1,0 +1,82 @@
+.workshop-article {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 1%;
+  }
+  
+  .workshop-article picture {
+    width: 40%;
+  }
+  
+  .workshop-article img {
+    width: 100%;
+  }
+  
+  .workshop-content {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .workshop-content p {
+    font-size: 1.15em;
+    padding: 15px;
+    color: white;
+    font-weight: 500;
+  }
+  
+  .workshop-content span {
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 1%;
+    color: white;
+    font-size: 0.85em;
+  }
+  
+  .workshop-table {
+    width: 80%;
+    margin: 0 auto;
+    border-spacing: 5px;
+    text-align: center;
+    border-collapse: collapse;
+    overflow: hidden;
+    border-radius: 1em;
+    -webkit-box-shadow: 0px -20px 10px -3px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0px -20px 10px -3px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px -20px 10px -3px rgba(0, 0, 0, 0.2);
+  }
+  
+  /*reverse these 2 below*/
+  
+  .workshops-options {
+    display: block;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  
+  /*reverse these 2 above */
+  
+  .workshop-table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #c5da5f;
+    color: white;
+  }
+  
+  .workshop-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .workshop-table tr:nth-child(odd) {
+    background-color: #fff;
+  }
+  
+  .workshop-table th,
+  td {
+    padding: 15px;
+  }

@@ -1,0 +1,48 @@
+.recommandations h2 {
+    color: white;
+    font-weight: 900;
+    text-shadow: 2px 2px 2px #000000;
+    padding-top: 3%;
+    padding-bottom: 2%;
+    font-size: 1.9em;
+    min-width: 0;
+    overflow: hidden;
+    line-height: 100%;
+  }
+  
+  .recommandations {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../../../assets/images/mediabckg.png");
+    flex-wrap: wrap;
+    text-align: center;
+  }
+  
+  .recommandations a {
+    color: white;
+    text-decoration: underline;
+  }
+  
+  .recommandations-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    max-width: 95%;
+    margin: 0 auto;
+  }
+  
+  .recommandations-box picture {
+    width: 30%;
+  }
+  
+  .recommandations-box picture img {
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.1), 0 0px 5px 0 rgba(0, 0, 0, 0.1);
+    width: 95%;
+  }
+  
+  .fb-post {
+    margin-top: 1.5%;
+  }

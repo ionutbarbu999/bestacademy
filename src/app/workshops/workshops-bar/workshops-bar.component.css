@@ -1,0 +1,21 @@
+.workshops-options-bar {
+    margin-top: 2%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 2%;
+  }
+  
+  .workshops-options-bar a {
+    width: 15%;
+  }
+  
+  .workshops-options-bar img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .workshops-options-bar img:hover {
+    transform: scale(1.1);
+  }

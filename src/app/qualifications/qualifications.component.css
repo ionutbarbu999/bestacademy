@@ -1,0 +1,25 @@
+.qualifications {
+    width: 100%;
+    background-color: white;
+    padding: 10px;
+    margin-top: 2%;
+  }
+  
+  .qualifications-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    margin: 0 auto;
+  }
+  
+  .qualifications picture {
+    width: 25%;
+    align-self: center;
+  }
+  
+  .qualifications img {
+    width: 50%;
+    height: 100%;
+  }

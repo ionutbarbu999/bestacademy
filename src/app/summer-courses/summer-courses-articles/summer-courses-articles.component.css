@@ -1,0 +1,42 @@
+.story-box {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 3%;
+    color: white;
+    border-radius: 2%;
+    border: 15px solid #c5da5f;
+  }
+  .story-box h2 {
+    color: white;
+    font-size: 2em;
+    font-weight: 900;
+    text-align: center;
+    line-height: 100%;
+  }
+  .summer-courses-content {
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+    padding-bottom: 10px;
+  }
+  .read-more{
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      text-decoration: underline;
+      font-size: 1.1em;
+  }
+  .read-more:hover{
+      cursor: pointer;
+  }
+  .storybox-slideshow-single{
+      max-width: 90%;
+      margin: 0 auto;
+  }
+  .storybox-slideshow picture{
+      max-width: 90%;
+  }
+  .hidden-content{
+    overflow: hidden;
+    max-height: 0vh;
+  }

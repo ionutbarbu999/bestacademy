@@ -1,0 +1,85 @@
+.marketing {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+  
+  .centered-text-box {
+    text-align: center;
+    padding: 2% 2%;
+  }
+  
+  .marketing-box {
+    color: white;
+    border-top-right-radius: 2%;
+    border-bottom-right-radius: 2%;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.4), 0 6px 30px 0 rgba(0, 0, 0, 0.19);
+    width: 40%;
+    padding-bottom: 5%;
+    margin-top: 3%;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .marketing-box:hover img {
+    opacity: 0.9;
+    transform: scale(1.1);
+    -webkit-filter: blur(1px);
+    filter: blur(1px);
+  }
+  
+  .marketing-box img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+    opacity: 0.5;
+    -webkit-filter: blur(4px);
+    filter: blur(4px);
+  }
+  
+  .marketing-box h2 {
+    font-weight: 900;
+    position: relative;
+    z-index: 2;
+    text-shadow: 2px 2px black;
+  }
+  
+  .marketing-box p {
+    font-weight: 600;
+    z-index: 2;
+    position: relative;
+    color: white;
+    text-shadow: 1px 1px black;
+  }
+  
+  .marketing-button-languages {
+    background-color: #c5da5f;
+  }
+  
+  .marketing-button-workshops {
+    background-color: #c5da5f;
+  }
+  
+  /* background-color:#F06957; */
+  
+  .marketing-button {
+    color: white;
+    font-size: 17px;
+    border-radius: 5%;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.1), 0 0px 15px 0 rgba(0, 0, 0, 0.1);
+    border: none;
+    width: 40%;
+    height: 35%;
+    z-index: 5;
+    position: relative;
+    font-family: Open Sans;
+    font-weight: 350;
+  }
+  
+  .marketing-button:hover {
+    box-shadow: 0 0 5px 0 rgba(255, 255, 255, 0.7);
+    cursor: pointer;
+  }

@@ -1,0 +1,309 @@
+<section class="languages-options">
+    <div class="english-box">
+        <picture>
+            <source media="(max-width: 865px)" srcset="../../../assets/images/opt-imgs/englishcourse.png">
+            <img src="../../../assets/images/englishcourse.png" alt="Curs de engleza">
+        </picture>
+        <div class="english-options">
+            <article class="english-kids" >
+                <div class="english-header" id="english-kids" (click)="clickEvent()">
+                    <h2 >Limba Engleză pentru Copii</h2>
+                    <!-- <i class="far fa-caret-square-down" id="caret-down-kids"></i> -->
+                    <fa name="arrow-down"></fa>
+                    <!-- <i class="far fa-caret-square-up" id="caret-up-kids"></i> -->
+                </div>
+                <div style="overflow-x:auto;" [ngClass]="status ? 'show-element': 'hide-element'">
+                    <table  class="languages-table children-languages-table" id="english-kids-table" >
+                        <tr>
+                            <th>Vârsta</th>
+                            <th><i class="fas fa-calendar-day"></i></th>
+                            <th><i class="fas fa-clock"></i></th>
+                            <th>Preț</th>
+                        </tr>
+                        <tr>
+                            <td>4-5 ani</td>
+                            <td>Sâmbătă</td>
+                            <td>11:30 - 13:00</td>
+                            <td rowspan="9">40 lei</td>
+                        </tr>
+                        <tr>
+                            <td>5-7 ani</td>
+                            <td>Luni <br> Joi <br>Joi <br>Sâmbătă</td>
+                            <td>17:00 - 19:00 <br> 16:00 - 18:00 <br> 16:45 - 18:45 <br> 09:00-11:00 </td>
+                        </tr>
+                        <tr>
+                            <td>Clasa a doua - nivel începător</td>
+                            <td>Sâmbătă</td>
+                            <td>9:00-11:00</td>
+                        </tr>
+                        <tr>
+                            <td>Clasa a doua - nivel mediu</td>
+                            <td>Vineri <br> Vineri </td>
+                            <td>14:30 - 16:30 <br> 16:45 - 18:45 </td>
+                        </tr>
+                        <tr>
+                            <td>Clasa a doua - nivel avansat (Movers)</td>
+                            <td>Sâmbătă</td>
+                            <td>09:00 - 11:00</td>
+                        </tr>
+                        <tr>
+                            <td>Clasa a treia</td>
+                            <td>Marți <br> Vineri </td>
+                            <td>16:30 - 18:30 <br> 16:45 - 18:45 </td>
+                        </tr>
+                        <tr>
+                            <td>Clasa a patra - nivel începător</td>
+                            <td>Vineri <br> Vineri </td>
+                            <td>14:15 - 16:15 <br> 16:00 - 18:00 </td>
+                        </tr>
+                        <tr>
+                            <td>Clasa a patra - nivel mediu</td>
+                            <td>Miercuri <br> Joi <br> Joi</td>
+                            <td>15:00 - 17:00 <br> 14:15 - 16:15<br> 16:30 - 18:30</td>
+                        </tr>
+                        <tr>
+                            <td>Clasa a patra - nivel avansat (KET)</td>
+                            <td>Vineri</td>
+                            <td>16:30 - 18:30</td>
+                        </tr>
+                    </table>
+                </div>
+            </article>
+            <article class="english-secondary">
+                <div class="english-header" id="english-secondary" (click)="clickEvent()">
+                    <h2>Limba Engleză pentru Elevi de Gimnaziu</h2>
+                    <!-- <i class="far fa-caret-square-down" id="caret-down-secondary"></i> -->
+                    <fa name="arrow-down"></fa>
+                    <!-- <i class="far fa-caret-square-up" id="caret-up-secondary"></i> -->
+                </div>
+                <div style="overflow-x:auto;" [ngClass]="status ? 'show-element': 'hide-element'">
+                    <table class="languages-table secondary-languages-table" id="english-secondary-table">
+                        <tr>
+                            <th>Nivel</th>
+                            <!-- <th><i class="fas fa-calendar-day"></i></th>
+                            <th><i class="fas fa-clock"></i></th> -->
+                            <th><fa name="calendar"></fa></th>
+                            <th><fa name="clock"></fa></th>
+                            <th>Preț</th>
+                        </tr>
+                        <tr>
+                            <td>-</td>
+                            <td>Luni</td>
+                            <td>16:00 - 18:00</td>
+                            <td rowspan="5">40 lei</td>
+                        </tr>
+                        <tr>
+                            <td>Avansați nivel pre B2</td>
+                            <td>Miercuri</td>
+                            <td>08:00 - 10:00 <br> 16:00 - 18:00</td>
+                        </tr>
+                        <tr>
+                            <td>Intermediate B1</td>
+                            <td>Vineri</td>
+                            <td>08:00 - 10:00</td>
+                        </tr>
+                        <tr>
+                            <td>Grupa de începători</td>
+                            <td>Sâmbătă</td>
+                            <td>11:15 - 13:15</td>
+                        </tr>
+                        <tr>
+                            <td>-</td>
+                            <td>Sâmbătă</td>
+                            <td>13:30 - 15:30</td>
+                        </tr>
+                    </table>
+                </div>
+            </article>
+            <article class="english-highschool">
+                <div class="english-header" id="english-highschool" (click)="clickEvent()">
+                    <h2>Limba Engleză pentru Elevi de Liceu</h2>
+                    <fa name="arrow-down"></fa>
+                    <!-- <i class="far fa-caret-square-down" id="caret-down-highschool"></i> -->
+                    <!-- <i class="far fa-caret-square-up" id="caret-up-highschool"></i> -->
+                </div>
+                <div style="overflow-x:auto;"[ngClass]="status ? 'show-element': 'hide-element'">
+                    <table class="languages-table highschool-languages-table" id="english-highschool-table">
+                        <tr>
+                            <th>Nivel</th>
+                            <th><i class="fas fa-calendar-day"></i></th>
+                            <th><i class="fas fa-clock"></i></th>
+                            <th>Preț</th>
+                        </tr>
+                        <tr>
+                            <td>FCE Level</td>
+                            <td>Luni</td>
+                            <td>16:00 - 18:00</td>
+                            <td rowspan="3">40 lei</td>
+                        </tr>
+                        <tr>
+                            <td>CAE Level</td>
+                            <td>Marți</td>
+                            <td>16:00 - 18:00</td>
+                        </tr>
+                        <tr>
+                            <td>B1 - preFCE Level</td>
+                            <td>Miercuri</td>
+                            <td>16:00 - 18:00</td>
+                        </tr>
+                    </table>
+                </div>
+            </article>
+            <article class="english-adults">
+                <div class="english-header" id="english-adults" (click)="clickEvent()">
+                    <h2>Limba Engleză pentru Adulți</h2>
+                    <!-- <i class="far fa-caret-square-down" id="caret-down-adults"></i> -->
+                    <fa name="arrow-down"></fa>
+                    <!-- <i class="far fa-caret-square-up" id="caret-up-adults"></i> -->
+                </div>
+                <p id="english-adults-paragraph" class="english-adults-paragraph" [ngClass]="status ? 'show-element': 'hide-element'">
+                    Cursul este în proces de acreditare. Dacă dorești să fii anunțat în următoarea perioadă când se
+                    formează grupe de adulți, contactează-ne!
+                </p>
+            </article>
+        </div>
+    </div>
+    <article class="french" id="french">
+        <picture>
+            <source media="(max-width: 865px)" srcset="../../../assets/images/opt-imgs/frenchcourse.png">
+            <img src="../../../assets/images/frenchcourse.png" alt="Curs de franceza">
+        </picture>
+        <div class="french-box">
+            <div style="overflow-x:auto;">
+                <table class="languages-table french-table">
+                    <tr>
+                        <th>Vârsta</th>
+                        <!-- <th><i class="fas fa-calendar-day"></i></th>
+                        <th><i class="fas fa-clock"></i></th> -->
+                        <th><fa name="calendar"></fa></th>
+                            <th><fa name="business-time"></fa></th>
+                        <th>Preț</th>
+                    </tr>
+                    <tr>
+                        <td>Elevi ciclu primar</td>
+                        <td>Luni</td>
+                        <td>15:30 - 17:00</td>
+                        <td rowspan="2">40 lei</td>
+                    </tr>
+                    <tr>
+                        <td>Elevi ciclu gimnazial, începători</td>
+                        <td>Sâmbătă</td>
+                        <td>15:30 - 17:00</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </article>
+    <article class="german" id="german">
+        <picture>
+            <source media="(max-width: 865px)" srcset="../../../assets/images/opt-imgs/germancourse.png">
+            <img src="../../../assets/images/germancourse.png" alt="Curs de germana">
+        </picture>
+        <div class="german-box">
+            <div style="overflow-x:auto;">
+                <table class="languages-table german-table">
+                    <tr>
+                        <th>Nivel</th>
+                        <th><i class="fas fa-calendar-day"></i></th>
+                        <th><i class="fas fa-clock"></i></th>
+                        <th>Preț</th>
+                    </tr>
+                    <tr>
+                        <td>Începători</td>
+                        <td>Sâmbătă</td>
+                        <td>11:45 - 13:15</td>
+                        <td rowspan="2">40 lei</td>
+                    </tr>
+                    <tr>
+                        <td>Mediu</td>
+                        <td>Sâmbătă</td>
+                        <td>13:30 - 15:00</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </article>
+    <article class="spanish" id="spanish">
+        <picture>
+            <source media="(max-width: 865px)" srcset="../../../assets/images/opt-imgs/spanishcourse.png">
+            <img src="../../../assets/images/spanishcourse.png" alt="Curs de spaniola">
+        </picture>
+        <div class="spanish-box">
+            <div style="overflow-x:auto;">
+                <table class="languages-table spanish-table">
+                    <tr>
+                        <th>Nivel</th>
+                        <th><i class="fas fa-calendar-day"></i></th>
+                        <th><i class="fas fa-clock"></i></th>
+                        <th>Preț</th>
+                    </tr>
+                    <tr>
+                        <td>Copii</td>
+                        <td>Vineri</td>
+                        <td>16:30 - 18:00</td>
+                        <td>40 lei</td>
+                    </tr>
+                    <tr>
+                        <td>Liceeni/Adulți</td>
+                        <td>Miercuri <br> Sâmbătă</td>
+                        <td>17:15 - 18:45 <br> 17:15 - 18:45 </td>
+                        <td>50 lei</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </article>
+    <article class="russian" id="russian">
+        <picture>
+            <source media="(max-width: 865px)" srcset="../../../assets/images/opt-imgs/russiancourse.png">
+            <img src="../../../assets/images/russiancourse.png" alt="Curs de rusa">
+        </picture>
+        <div class="russian-box">
+            <div style="overflow-x:auto;">
+                <table class="languages-table russian-table">
+                    <tr>
+                        <th>Nivel</th>
+                        <th><i class="fas fa-calendar-day"></i></th>
+                        <th><i class="fas fa-clock"></i></th>
+                        <th>Preț</th>
+                    </tr>
+                    <tr>
+                        <td>Liceeni</td>
+                        <td>Miercuri</td>
+                        <td>16:30 - 18:30</td>
+                        <td>50 lei</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </article>
+    <article class="japanese" id="japanese">
+        <picture>
+            <source media="(max-width: 865px)" srcset="../../../assets/images/opt-imgs/japanesecourse.png">
+            <img src="../../../assets/images/japanesecourse.png" alt="Curs de japoneza">
+        </picture>
+        <div class="japanese-box">
+            <div style="overflow-x:auto;">
+                <table class="languages-table japanese-table">
+                    <tr>
+                        <th>Nivel</th>
+                        <th><i class="fas fa-calendar-day"></i></th>
+                        <th><i class="fas fa-clock"></i></th>
+                        <th>Preț</th>
+                    </tr>
+                    <tr>
+                        <td>Începători</td>
+                        <td>Duminică</td>
+                        <td>11:45 - 13:45</td>
+                        <td rowspan="2">60 lei</td>
+                    </tr>
+                    <tr>
+                        <td>Mediu</td>
+                        <td>Duminică</td>
+                        <td>09:30 - 11:30</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </article>
+</section>

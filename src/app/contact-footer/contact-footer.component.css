@@ -1,0 +1,52 @@
+.contact {
+    color: white;
+    margin-top: 2%;
+  }
+  
+  .contact h3 {
+    color: white;
+    font-weight: 900;
+  }
+  
+  .contact-opacity {
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    width: 95%;
+  }
+  
+  .contact-subsection {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+  }
+  
+  .contact-subsection ul {
+    list-style-type: none;
+  }
+  
+  .contact-subsection ul a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .contact-subsection i {
+    color: white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    text-align: left;
+    font-size: 1em;
+    padding: 3px;
+  }
+  
+  .contact-subsection img {
+    width: 30px;
+  }
+  
+  .contact-opacity picture {
+    width: 20%;
+  }
+  
+  .contact-logo {
+    width: 100%;
+  }

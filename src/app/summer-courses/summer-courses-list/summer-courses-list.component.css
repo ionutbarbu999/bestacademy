@@ -1,0 +1,115 @@
+.first-module-header {
+    text-align: center;
+    color: white;
+    background-color: #c5da5f;
+    width: 70%;
+    margin: 0 auto;
+    padding: 6px;
+    margin-top: 1%;
+  }
+  
+  .first-module-header i {
+    padding: 5px;
+  }
+  
+  .first-module-header h2 {
+    font-size: 1.4em;
+    font-weight: 900;
+    line-height: 100%;
+  }
+  
+  .first-module-header h3 {
+    font-size: 1.2em;
+    font-weight: 700;
+    padding: 10px;
+  }
+  
+  .first-module-content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 60%;
+  }
+  
+  .first-module-content-container {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    border-radius: 2%;
+    border: 20px solid #c5da5f;
+    color: white;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.4), 0 6px 30px 0 rgba(0, 0, 0, 0.19);
+    padding: 15px;
+    margin-top: 2%;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
+  
+  .first-module-content-pd span {
+    font-weight: 500;
+  }
+  
+  .first-module img {
+    height: 100%;
+  }
+  
+  .second-module-header {
+    text-align: center;
+    color: white;
+    background-color: #c5da5f;
+    width: 70%;
+    margin: 0 auto;
+    padding: 6px;
+    margin-top: 1%;
+  }
+  
+  .second-module-header h2 {
+    font-size: 1.4em;
+    font-weight: 900;
+    line-height: 100%;
+  }
+  
+  .second-module-content-container {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    border-radius: 2%;
+    border: 20px solid #c5da5f;
+    color: white;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.4), 0 6px 30px 0 rgba(0, 0, 0, 0.19);
+    padding: 15px;
+    margin-top: 2%;
+    margin: 0 auto;
+  }
+  
+  .first-module-header,
+  .second-module-header {
+    border-top-left-radius: 20%;
+    border-top-right-radius: 20%;
+  }
+  
+  .second-module-header i {
+    padding: 5px;
+  }
+  
+  .second-module-content {
+    width: 68%;
+  }
+  
+  .second-module-content-container picture,
+  .first-module picture {
+    width: 50%;
+    margin: 0 auto;
+    height: 100%;
+  }
+  
+  .second-module-content-container img,
+  .first-module img {
+    width: 100%;
+  }
+  
+  .first-module-content,
+  .second-module-content {
+    padding: 2%;
+  }

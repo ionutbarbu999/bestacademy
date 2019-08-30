@@ -1,0 +1,29 @@
+.contact-text {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 0 auto;
+    color: white;
+  }
+  
+  .contact-box {
+    margin-top: 50px;
+    margin-left: 50px;
+  }
+  
+  .contact-box h2 {
+    font-weight: 900;
+    line-height: 100%;
+  }
+  
+  .contact-box p {
+    font-weight: 500;
+  }
+  
+  .contact-details p {
+    line-height: 10px;
+  }
+  
+  .contact-details i {
+    padding: 4px;
+  }

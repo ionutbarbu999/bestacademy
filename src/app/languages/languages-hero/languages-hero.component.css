@@ -1,0 +1,44 @@
+.hero-language-image {
+    margin: 0 auto;
+  }
+  
+  .languages-logo {
+    width: 100%;
+    height: auto;
+    float: left;
+    padding: 10px;
+  }
+  
+  .language-courses-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 2%;
+    border: 20px solid #c5da5f;
+    color: white;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.4), 0 6px 30px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 2%;
+  }
+  
+  .language-courses-container picture {
+    width: 25%;
+  }
+  
+  .language-courses-text {
+    width: 80%;
+    text-align: left;
+  }
+  
+  .language-courses-text p {
+    font-size: 1em;
+    font-weight: 700;
+    padding: 10px;
+  }
+  
+  .language-courses-text h2 {
+    font-size: 1.4em;
+    font-weight: 900;
+    padding: 10px;
+  }
