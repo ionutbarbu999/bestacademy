@@ -1,9 +1,10 @@
-<div class="well" *ngIf="authService.getUser()"> Logged in as <b>{{ authService.getUser() }}</b> 
-    <app-admin></app-admin>
+<div class="well" *ngIf="authService.getUser()"> 
+    <div>
+        <p> Logged in as <b>{{ authService.getUser() }}</b> 
+        </p>
+    </div>
     <button href (click)="logout()">Log out</button>
 </div>
-
-
 
 <form class="form-inline" *ngIf="!authService.getUser()">
     <img src="../assets/images/logocircular.png">

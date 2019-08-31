@@ -37,8 +37,8 @@ import { SummerCoursesArticlesComponent } from './summer-courses/summer-courses-
 import { ContactDetailsComponent } from './contact/contact-details/contact-details.component';
 import { ContactFormComponent } from './contact/contact-form/contact-form.component';
 import { AngularFontAwesomeModule } from 'angular-font-awesome';
-import { AdminComponent } from './admin/admin.component';
 import { LoginComponent } from './login/login.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
 
 @NgModule({
   declarations: [
@@ -74,8 +74,8 @@ import { LoginComponent } from './login/login.component';
     SummerCoursesArticlesComponent,
     ContactDetailsComponent,
     ContactFormComponent,
-    AdminComponent,
     LoginComponent,
+    DashboardComponent,
   ],
   imports: [
     BrowserModule,

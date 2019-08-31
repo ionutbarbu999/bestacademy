@@ -20,7 +20,7 @@ export class LoginComponent implements OnInit {
       setTimeout(function() {
         this.message = '';
       }.bind(this), 2500);
-    }
+    } 
     return false;
   }
 
