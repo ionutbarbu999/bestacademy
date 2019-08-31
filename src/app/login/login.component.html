@@ -1,0 +1,25 @@
+<div class="well" *ngIf="authService.getUser()"> 
+    <div>
+        <p> Logged in as <b>{{ authService.getUser() }}</b> 
+        </p>
+    </div>
+    <button href (click)="logout()">Log out</button>
+</div>
+
+<form class="form-inline" *ngIf="!authService.getUser()">
+    <img src="../assets/images/logocircular.png">
+    <h2> Login </h2>
+    <div class="alert alert-danger" role="alert" *ngIf="message"> 
+{{ message }}
+</div>
+    <div class="form-group">
+        <input class="form-control" name="username" #username placeholder="Username"> 
+    </div>
+    <div class="form-group">
+        <input class="form-control" type="password" name="password" #password placeholder="Password">
+    </div>
+<button class="btn btn-default" (click)="login(username.value, password.value)">
+    Submit 
+</button>
+
+
