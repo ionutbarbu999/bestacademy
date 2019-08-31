@@ -1,0 +1,38 @@
+.form-inline{
+    width: 40%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+}
+.form-group{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 100%;
+}
+.form-group input {
+    font-size: 1em;
+    width: 100%;
+    margin-top: 3%;
+    padding: 2%;
+    border-radius: 15px;
+}
+button{
+    width: 30%;
+    margin: 0 auto;
+    margin-top: 3%;
+    font-size: 1em;
+    padding: 1%;
+    margin-bottom: 3%;
+    border-radius: 15px;
+}
+.form-inline img{
+    width: 50%;
+    height: auto;
+    margin: 0 auto;
+}
+h2{
+  font-size: 2em;  
+}
